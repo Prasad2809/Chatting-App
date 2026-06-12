@@ -18,7 +18,6 @@
 
 </div>
 <img width="1907" height="906" alt="Screenshot 2026-06-12 115007" src="https://github.com/user-attachments/assets/19881880-7148-4b3f-a158-6a0904d4cc53" />
-<img width="1907" height="906" alt="Screenshot 2026-06-12 115007" src="https://github.com/user-attachments/assets/738d114b-0a33-4483-ae16-82b72fca183c" />
 <img width="1917" height="907" alt="Screenshot 2026-06-12 114748" src="https://github.com/user-attachments/assets/36ea293c-747d-43bb-8865-4460f119b602" />
 <img width="1917" height="907" alt="Screenshot 2026-06-12 114656" src="https://github.com/user-attachments/assets/2e9e37a8-7788-47fa-b08c-207146571b15" />
 
