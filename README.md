@@ -14,7 +14,7 @@
 
 <br/>
 
-[🚀 Live Demo](#) • [🐛 Report Bug](https://github.com/YOUR_USERNAME/full-stack-chatApp/issues) • [✨ Request Feature](https://github.com/YOUR_USERNAME/full-stack-chatApp/issues)
+[🚀 Live Demo](http://localhost:8080/) 
 
 </div>
 
@@ -32,9 +32,6 @@
 - [📝 Environment Variables](#-environment-variables)
 - [🔌 API Endpoints](#-api-endpoints)
 - [📸 Screenshots](#-screenshots)
-- [🔮 Future Plans](#-future-plans)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 - [👤 Author](#-author)
 
 ---
@@ -106,3 +103,7 @@ This project showcases:
 ---
 
 ## 📁 Project Structure
+full-stack-chatApp/ │ ├── 📁 backend/ # Backend Node.js application │ ├── 📁 src/ │ │ ├── 📁 controllers/ # Request handlers │ │ │ ├── auth.controller.js │ │ │ └── message.controller.js │ │ ├── 📁 models/ # MongoDB schemas │ │ │ ├── user.model.js │ │ │ └── message.model.js │ │ ├── 📁 routes/ # API route definitions │ │ │ ├── auth.route.js │ │ │ └── message.route.js │ │ ├── 📁 middleware/ # Custom middleware │ │ │ └── auth.middleware.js │ │ ├── 📁 lib/ # Utilities and config │ │ │ ├── db.js │ │ │ └── socket.js │ │ └── index.js # App entry point │ ├── 📄 .env.example # Environment variable template │ ├── 📄 Dockerfile # Backend Docker config │ └── 📄 package.json │ ├── 📁 frontend/ # Frontend React application │ ├── 📁 src/ │ │ ├── 📁 components/ # Reusable UI components │ │ ├── 📁 pages/ # Page-level components │ │ ├── 📁 store/ # Zustand state management │ │ ├── 📁 hooks/ # Custom React hooks │ │ ├── 📁 lib/ # Helper utilities │ │ └── main.jsx # React entry point │ ├── 📄 Dockerfile # Frontend Docker config │ ├── 📄 nginx.conf # Nginx web server config │ └── 📄 package.json │ ├── 📁 screenshots/ # App screenshots for README ├── 📄 docker-compose.yml # Docker Compose configuration ├── 📄 .gitignore # Git ignore rules └── 📄 README.md # Project documentation
+
+
+
