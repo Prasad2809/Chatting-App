@@ -103,7 +103,109 @@ This project showcases:
 ---
 
 ## 📁 Project Structure
-full-stack-chatApp/ │ ├── 📁 backend/ # Backend Node.js application │ ├── 📁 src/ │ │ ├── 📁 controllers/ # Request handlers │ │ │ ├── auth.controller.js │ │ │ └── message.controller.js │ │ ├── 📁 models/ # MongoDB schemas │ │ │ ├── user.model.js │ │ │ └── message.model.js │ │ ├── 📁 routes/ # API route definitions │ │ │ ├── auth.route.js │ │ │ └── message.route.js │ │ ├── 📁 middleware/ # Custom middleware │ │ │ └── auth.middleware.js │ │ ├── 📁 lib/ # Utilities and config │ │ │ ├── db.js │ │ │ └── socket.js │ │ └── index.js # App entry point │ ├── 📄 .env.example # Environment variable template │ ├── 📄 Dockerfile # Backend Docker config │ └── 📄 package.json │ ├── 📁 frontend/ # Frontend React application │ ├── 📁 src/ │ │ ├── 📁 components/ # Reusable UI components │ │ ├── 📁 pages/ # Page-level components │ │ ├── 📁 store/ # Zustand state management │ │ ├── 📁 hooks/ # Custom React hooks │ │ ├── 📁 lib/ # Helper utilities │ │ └── main.jsx # React entry point │ ├── 📄 Dockerfile # Frontend Docker config │ ├── 📄 nginx.conf # Nginx web server config │ └── 📄 package.json │ ├── 📁 screenshots/ # App screenshots for README ├── 📄 docker-compose.yml # Docker Compose configuration ├── 📄 .gitignore # Git ignore rules └── 📄 README.md # Project documentation
+full-stack-chatApp/
+│
+├── 📁 backend/
+│   │
+│   ├── 📁 src/
+│   │   │
+│   │   ├── 📁 controllers/
+│   │   │   ├── 📄 auth.controller.js
+│   │   │   └── 📄 message.controller.js
+│   │   │
+│   │   ├── 📁 models/
+│   │   │   ├── 📄 user.model.js
+│   │   │   └── 📄 message.model.js
+│   │   │
+│   │   ├── 📁 routes/
+│   │   │   ├── 📄 auth.route.js
+│   │   │   └── 📄 message.route.js
+│   │   │
+│   │   ├── 📁 middleware/
+│   │   │   └── 📄 auth.middleware.js
+│   │   │
+│   │   ├── 📁 lib/
+│   │   │   ├── 📄 db.js
+│   │   │   ├── 📄 socket.js
+│   │   │   └── 📄 utils.js
+│   │   │
+│   │   └── 📄 index.js
+│   │
+│   ├── 📄 .env                  ← ⚠️ NEVER push to GitHub
+│   ├── 📄 .env.example          ← ✅ Safe to push
+│   ├── 📄 .gitignore
+│   ├── 📄 Dockerfile
+│   └── 📄 package.json
+│
+│
+├── 📁 frontend/
+│   │
+│   ├── 📁 src/
+│   │   │
+│   │   ├── 📁 components/
+│   │   │   ├── 📁 ui/
+│   │   │   │   ├── 📄 Button.jsx
+│   │   │   │   ├── 📄 Input.jsx
+│   │   │   │   └── 📄 Avatar.jsx
+│   │   │   │
+│   │   │   ├── 📁 chat/
+│   │   │   │   ├── 📄 ChatContainer.jsx
+│   │   │   │   ├── 📄 ChatHeader.jsx
+│   │   │   │   ├── 📄 ChatInput.jsx
+│   │   │   │   └── 📄 MessageBubble.jsx
+│   │   │   │
+│   │   │   ├── 📁 sidebar/
+│   │   │   │   ├── 📄 Sidebar.jsx
+│   │   │   │   └── 📄 UserList.jsx
+│   │   │   │
+│   │   │   ├── 📄 Navbar.jsx
+│   │   │   └── 📄 OnlineStatus.jsx
+│   │   │
+│   │   ├── 📁 pages/
+│   │   │   ├── 📄 HomePage.jsx
+│   │   │   ├── 📄 LoginPage.jsx
+│   │   │   ├── 📄 RegisterPage.jsx
+│   │   │   └── 📄 ProfilePage.jsx
+│   │   │
+│   │   ├── 📁 store/
+│   │   │   ├── 📄 useAuthStore.js
+│   │   │   ├── 📄 useChatStore.js
+│   │   │   └── 📄 useThemeStore.js
+│   │   │
+│   │   ├── 📁 hooks/
+│   │   │   ├── 📄 useSocket.js
+│   │   │   └── 📄 useOnlineStatus.js
+│   │   │
+│   │   ├── 📁 lib/
+│   │   │   ├── 📄 axios.js
+│   │   │   └── 📄 utils.js
+│   │   │
+│   │   ├── 📄 App.jsx
+│   │   ├── 📄 main.jsx
+│   │   └── 📄 index.css
+│   │
+│   ├── 📁 public/
+│   │   ├── 📄 favicon.ico
+│   │   └── 📄 logo.png
+│   │
+│   ├── 📄 Dockerfile
+│   ├── 📄 nginx.conf
+│   ├── 📄 index.html
+│   ├── 📄 tailwind.config.js
+│   ├── 📄 vite.config.js
+│   └── 📄 package.json
+│
+│
+├── 📁 screenshots/
+│   ├── 🖼️ login.png
+│   ├── 🖼️ chat.png
+│   └── 🖼️ profile.png
+│
+│
+├── 📄 docker-compose.yml
+├── 📄 .gitignore
+└── 📄 README.md📄 README.md # Project documentation
+
 
 
 
