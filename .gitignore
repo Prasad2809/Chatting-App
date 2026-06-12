@@ -1,25 +1,63 @@
+# =====================
+# Environment Variables (NEVER SHARE THESE)
+# =====================
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+backend/.env
+frontend/.env
+*.env
+
+# =====================
+# Dependencies (too large to push)
+# =====================
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# =====================
+# Build Output
+# =====================
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# =====================
+# Docker Volumes & Data
+# =====================
+mongo-data/
+docker-volumes/
+*.log
+
+# =====================
+# OS Files
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# IDE Files
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
 # Logs
-logs
+# =====================
+logs/
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
+# =====================
+# SSL Certificates
+# =====================
+*.pem
+*.key
+*.cert
+*.crt
